@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.bag-icon {
+  padding-left: 90%;
+  margin-top: -7%;
+}
+
+.heart-icon {
+  margin-left: 80%;
+  margin-top: -9%;
+}
+

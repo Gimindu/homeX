@@ -1,0 +1,76 @@
+/* General styling for the post container */
+.post-container {
+  font-family: "Arial", sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the main heading */
+.post-container h1 {
+  color: #333;
+  text-align: center;
+}
+
+/* Styling for the slug paragraph */
+.post-container p.slug {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Styling for images */
+.post-container img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+/* Styling for the product title */
+.post-container h2 {
+  color: #1a1a1a;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow-btns {
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+@media (max-width: 480px) {
+  .post-container img {
+    width: 70%;
+  }
+  .arrow-btns {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+
+@media ((min-width: 480px) and (max-width:1024px)) {
+  .post-container img {
+    width: 70%;
+  }
+  .arrow-btns {
+    font-size: 25px;
+  }
+}
